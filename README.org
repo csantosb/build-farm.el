@@ -7,9 +7,11 @@
 =Emacs-Build-Farm= is an Emacs interface for [[https://nixos.org/hydra/][Hydra]] and [[https://git.savannah.gnu.org/cgit/guix/guix-cuirass.git/][Cuirass]] — build
 farms for [[https://nixos.org/nix/][Nix]] and [[https://www.gnu.org/software/guix/][Guix]] package managers, i.e., for:
 
-| [[https://hydra.nixos.org]]   | Hydra for Nix    |
-| [[https://hydra.gnu.org]]     | Hydra for Guix   |
-| [[https://berlin.guixsd.org]] | Cuirass for Guix |
+| [[https://hydra.nixos.org]]        | Hydra for Nix    |
+| [[https://hydra.gnu.org]]          | Hydra for Guix   |
+| [[https://berlin.guix.gnu.org]]    | Cuirass for Guix |
+| [[https://ci.guix.gnu.org]]        | Cuirass for Guix |
+| [[https://bordeaux.guix.inria.fr]] | Cuirass for Guix |
 
 This package allows you to look at builds, jobsets, evaluations and
 projects of these build farms.

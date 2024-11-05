@@ -31,14 +31,15 @@
 (defvar build-farm-url-alist
   '(("https://hydra.nixos.org" . hydra)
     ("https://hydra.gnu.org" . hydra)
-    ("https://ci.guix.info" . cuirass)
-    ("https://berlin.guixsd.org" . cuirass))
+    ("https://ci.guix.gnu.org" . cuirass)
+    ("https://guix.bordeaux.inria.fr" . cuirass)
+    ("https://berlin.guix.gnu.org" . cuirass))
   "Alist of URLs and their types of the available build farms.")
 
 (defun build-farm-guess-url ()
   "Return URL of a build farm that a user probably wants to use."
   (if (eq 'guix build-farm-preferred-package-manager)
-      "https://ci.guix.info"
+      "https://ci.guix.gnu.org"
     "https://hydra.nixos.org"))
 
 (defun build-farm-urls ()

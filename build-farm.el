@@ -28,7 +28,10 @@
 ;;
 ;;   https://hydra.nixos.org            (Hydra)
 ;;   https://hydra.gnu.org              (Hydra)
-;;   https://berlin.guixsd.org          (Cuirass)
+;;   https://berlin.guix.gnu.org        (Cuirass)
+;;   https://ci.guix.gnu.org            (Cuirass)
+;;   https://guix.bordeaux.inria.fr     (Cuirass)
+
 ;;
 ;; Set `build-farm-url' variable to choose what build farm you wish to
 ;; use.
